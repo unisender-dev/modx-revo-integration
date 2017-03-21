@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'unisender',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '4e61a9a34a2848f7284a37596fc6acef',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'b48e70a5c16c95c0e302a61db447f7d5',
+  'native_key' => 'unisender.core_path',
+  'object' => '{"key":"unisender.core_path","value":"{core_path}components\\/unisender\\/","xtype":"textfield","namespace":"unisender","area":"unisender_backend","editedon":null}',
+);

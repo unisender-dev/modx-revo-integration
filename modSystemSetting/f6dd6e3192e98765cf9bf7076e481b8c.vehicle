@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'unisender',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '30cde90ff2c848afb41971179fae531f',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'f6dd6e3192e98765cf9bf7076e481b8c',
+  'native_key' => 'unisender_sender_name',
+  'object' => '{"key":"unisender_sender_name","value":"","xtype":"textfield","namespace":"unisender","area":"unisender_backend","editedon":null,"name":"\\u0418\\u043c\\u044f \\u043e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u0435\\u043b\\u044f \\u0440\\u0430\\u0441\\u0441\\u044b\\u043b\\u043a\\u0438","description":"\\u0418\\u043c\\u044f \\u043e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u0435\\u043b\\u044f \\u0440\\u0430\\u0441\\u0441\\u044b\\u043b\\u043a\\u0438, \\u044d\\u0442\\u0438\\u043c \\u0438\\u043c\\u0435\\u043d\\u0435\\u043c \\u0431\\u0443\\u0434\\u0435\\u0442 \\u0431\\u043e\\u0434\\u043f\\u0438\\u0441\\u0430\\u043d\\u043e \\u043f\\u0438\\u0441\\u044c\\u043c\\u043e"}',
+);

@@ -1,0 +1,57 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Action' => 
+    array (
+      'a8958808d9f730764712f880182a0b1d' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'namespace',
+          1 => 'controller',
+        ),
+        'class' => 'modAction',
+        'object' => '{"id":1,"namespace":"unisender","parent":0,"controller":"controllers\\/index","haslayout":1,"lang_topics":"unisender:default","assets":"","help_url":""}',
+        'guid' => '57fd36066a889014cf4901d0b07c2403',
+        'native_key' => 1,
+        'signature' => '790e033c868be065dad83c34bdc024c8',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'unisender',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"unisender-1.7.4\\/modMenu\\/85de9fccf7a2dbe7f157f28c19cb2978.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a7cad92b0d344158e3b18b65b63cf949',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '85de9fccf7a2dbe7f157f28c19cb2978',
+  'native_key' => 'unisender',
+  'object' => '{"text":"unisender","parent":"components","action":1,"description":"unisender.desc","icon":"images\\/icons\\/plugin.gif","menuindex":0,"params":"","handler":"","permissions":""}',
+);

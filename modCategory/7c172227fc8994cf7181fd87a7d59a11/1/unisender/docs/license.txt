@@ -1,0 +1,2 @@
+This is a License for Unisender components. 
+This component is destributed as open-source package.

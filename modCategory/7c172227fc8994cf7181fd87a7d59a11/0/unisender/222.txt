@@ -1,0 +1,16 @@
+array (
+  'action' => 'mgr/subscribers.subscribe',
+  'config' => '',
+  'HTTP_MODAUTH' => 'modx4f315ccf75ca75.82648709_14f315d05514467.86216878',
+  'id' => '',
+  'name' => '',
+  'description' => '',
+  'PHPSESSID' => '414035207366a99c8b3ed2852c707527',
+  'ys-modx-resource-tree' => 'a:s%3A/root^s%3A/root/web_0/web_1^s%3A/root/web_0',
+  'ys-modx-leftbar-state' => 'o:activeTab=n%3A2',
+  'ys-modx-element-tree' => 'a:s%3A/root^s%3A/root/n_type_template^s%3A/root/n_type_chunk^s%3A/root/n_type_snippet',
+  'ys-modx-tree-menu' => 'a:s%3A/n_^s%3A/n_/n_components^s%3A/n_/n_components/n_Unisender',
+  'ys-modx-tree-action' => 'a:s%3A/n_root_0^s%3A/n_root_0/n_namespace_unisender',
+  'ys-modx-package-browser-tree' => 'a:s%3A/modx-package-browser-tree-root',
+  'ys-modx-file-tree' => 's:/%u0424%u0430%u0439%u043B%u044B',
+)

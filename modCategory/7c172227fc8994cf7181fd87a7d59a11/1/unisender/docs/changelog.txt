@@ -1,0 +1,5 @@
+Changelog file for Unisender component.
+ 
+Unisender 1.0
+====================================
+- No changelog now :)

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'unisender',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '7914fcc70f3d044d3a75e5b8c275d485',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'f4341798ee9a3e785e544bfee70519ba',
+  'native_key' => 'unisender_api',
+  'object' => '{"key":"unisender_api","value":"","xtype":"textfield","namespace":"unisender","area":"unisender_backend","editedon":null,"name":"Unisender API key","description":"\\u041a\\u043b\\u044e\\u0447 API \\u0438\\u0437 \\u0432\\u0430\\u0448\\u0435\\u0433\\u043e \\u043b\\u0438\\u0447\\u043d\\u043e\\u0433\\u043e \\u043a\\u0430\\u0431\\u0438\\u043d\\u0435\\u0442\\u0430 \\u043d\\u0430 Unisender"}',
+);

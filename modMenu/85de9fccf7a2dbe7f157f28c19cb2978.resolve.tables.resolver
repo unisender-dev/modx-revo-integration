@@ -1,0 +1,28 @@
+<?php
+/**
+ * Resolve creating custom db tables during install.
+ *
+ * @package unisender
+ * @subpackage build
+ */
+if ($object->xpdo) {
+    switch ($options[xPDOTransport::PACKAGE_ACTION]) {
+        case xPDOTransport::ACTION_INSTALL:
+            $modx =& $object->xpdo;
+            $modelPath = $modx->getOption('unisender.core_path',null,$modx->getOption('core_path').'components/unisender/').'model/';
+            $modx->addPackage('unisender',$modelPath);
+
+            $manager = $modx->getManager();
+
+            $manager->createObjectContainer('UnisenderLists');
+			$manager->createObjectContainer('UnisenderSubscribers');
+
+            break;
+        case xPDOTransport::ACTION_UPGRADE:
+            break;
+        case xPDOTransport::ACTION_UNINSTALL:
+            break;
+
+    }
+}
+return true;

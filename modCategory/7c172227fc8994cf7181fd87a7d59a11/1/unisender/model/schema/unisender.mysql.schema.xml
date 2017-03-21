@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model package="unisender" baseClass="xPDOSimpleObject" platform="mysql" defaultEngine="MyISAM" version="1.7.4">
+
+<object class="UnisenderLists" table="unisender_lists" extends="xPDOSimpleObject">
+		<field key="unisender_id" dbtype="int" phptype="integer" null="false"  />
+		<field key="name" dbtype="varchar" precision="400" phptype="string" null="false" />
+	</object>
+    
+<object class="UnisenderSubscribers" table="unisender_subscribers" extends="xPDOSimpleObject">
+		<field key="user_id" dbtype="int" phptype="integer" null="false"  />
+		<field key="list_id" dbtype="int" phptype="integer" null="false"  />
+        <field key="subscribe_type" dbtype="int" phptype="integer" null="false"  />
+	</object>
+
+
+</model>
