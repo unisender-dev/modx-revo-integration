@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model package="unisender" baseClass="xPDOSimpleObject" platform="mysql" defaultEngine="MyISAM" version="1.7.4">
+<model package="unisender" baseClass="xPDOSimpleObject" platform="mysql" defaultEngine="MyISAM" version="1.7.5">
 
 <object class="UnisenderLists" table="unisender_lists" extends="xPDOSimpleObject">
 		<field key="unisender_id" dbtype="int" phptype="integer" null="false"  />

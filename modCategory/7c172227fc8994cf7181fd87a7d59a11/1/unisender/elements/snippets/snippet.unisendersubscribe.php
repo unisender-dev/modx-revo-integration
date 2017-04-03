@@ -97,7 +97,8 @@ $POST = array (
   'fields[email]' => $user_email,
   'fields[Name]' => $user_name,
   'request_ip' => $user_ip,
-  'tags' => $user_tag
+  'tags' => $user_tag,
+  'platform' => 'MODx Revo'
 );
 //print_r($POST);
 
@@ -108,7 +109,7 @@ curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, $POST);
 curl_setopt($ch, CURLOPT_TIMEOUT, 10);
 curl_setopt($ch, CURLOPT_URL, 
-            'http://api.unisender.com/ru/api/subscribe?format=json');
+            'https://api.unisender.com/ru/api/subscribe?format=json');
 $result = curl_exec($ch);
 //echo $result;
 if ($result) {

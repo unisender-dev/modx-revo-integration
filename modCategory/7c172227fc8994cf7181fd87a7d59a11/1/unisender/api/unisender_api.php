@@ -97,7 +97,7 @@ class UniSenderApi
 
 		$Context = stream_context_create($ContextOptions);
 
-		$Result = file_get_contents('http://api.unisender.com/ru/api/' . $MethodName . '?format=json', FALSE, $Context);
+		$Result = file_get_contents('https://api.unisender.com/ru/api/' . $MethodName . '?format=json', FALSE, $Context);
 
 		return $Result;
 	}
