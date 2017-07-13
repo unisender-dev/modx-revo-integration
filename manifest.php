@@ -1,5 +1,5 @@
 <?php return array(
-    'manifest-version' => '1.7.5',
+    'manifest-version' => '1.7.6',
     'manifest-attributes' =>
         array(
             'license' => 'This is a License for Unisender components.
@@ -51,8 +51,13 @@ Unisender 1.7.5
 2. Added identification parametr for api connection
 3. Fix several bugs in lang file
 
+Unisender 1.7.6
+====================================
+
+1. Fix bug with wrong edit url.
+
 ',
-            'setup-options' => 'unisender-1.7.5/setup-options.php'
+            'setup-options' => 'unisender-1.7.6/setup-options.php'
         ),
     'manifest-vehicles' =>
         array(

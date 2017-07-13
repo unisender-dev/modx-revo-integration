@@ -137,7 +137,7 @@ Ext.extend(Unisender.grid.Subscribers, MODx.grid.Grid, {
 	
 	viewProfile: function(btn, e) {
         if (!this.menu.record || !this.menu.record.id) return false;
-        location.href = '?a=34&id=' + this.menu.record.id;
+        location.href = '?a=security/user/update&id=' + this.menu.record.id;
     }
 	,subscribeUser: function(btn,e) {
 		this.menu.record.users='';

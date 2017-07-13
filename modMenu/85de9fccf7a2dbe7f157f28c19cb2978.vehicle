@@ -42,7 +42,7 @@
     0 => 
     array (
       'type' => 'php',
-      'body' => '{"source":"unisender-1.7.5\\/modMenu\\/85de9fccf7a2dbe7f157f28c19cb2978.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
+      'body' => '{"source":"unisender-1.7.6\\/modMenu\\/85de9fccf7a2dbe7f157f28c19cb2978.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
     ),
   ),
   'validate' => NULL,

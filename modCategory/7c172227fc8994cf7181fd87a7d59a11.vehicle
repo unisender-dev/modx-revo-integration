@@ -122,12 +122,12 @@
     0 => 
     array (
       'type' => 'file',
-      'body' => '{"source":"unisender-1.7.5\\/modCategory\\/7c172227fc8994cf7181fd87a7d59a11\\/0\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"unisender"}',
+      'body' => '{"source":"unisender-1.7.6\\/modCategory\\/7c172227fc8994cf7181fd87a7d59a11\\/0\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"unisender"}',
     ),
     1 => 
     array (
       'type' => 'file',
-      'body' => '{"source":"unisender-1.7.5\\/modCategory\\/7c172227fc8994cf7181fd87a7d59a11\\/1\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"unisender"}',
+      'body' => '{"source":"unisender-1.7.6\\/modCategory\\/7c172227fc8994cf7181fd87a7d59a11\\/1\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"unisender"}',
     ),
   ),
   'validate' => NULL,
